@@ -6,4 +6,10 @@
     height: 100vh;
 }
 
+.weather-app {
+    max-width: 400px;
+    padding: 60px;
+    text-align: center;
+}
+
 
