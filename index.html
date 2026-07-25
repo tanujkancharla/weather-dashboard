@@ -2,18 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Weather Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-
+<body class="weather-default">
     <main class="app-container">
-
         <section class="weather-app">
-
             <h1>Weather Dashboard</h1>
 
             <p class="app-description">
@@ -21,34 +33,44 @@
             </p>
 
             <div class="search-container">
-    <input
-        type="text"
-        id="city-input"
-        placeholder="Enter city name"
-    >
-    <button id="search-button">Search</button>
-</div>
+                <input
+                    type="text"
+                    id="city-input"
+                    placeholder="Enter city name"
+                    aria-label="City name"
+                    autocomplete="off"
+                >
 
-<div class="weather-card">
-    <div class="weather-icon">🌤</div>
+                <button
+                    id="search-button"
+                    type="button"
+                >
+                    Search
+                </button>
+            </div>
 
-    <h2 class="temperature">--°</h2>
+            <div class="weather-card">
+                <div
+                    class="weather-icon"
+                    aria-hidden="true"
+                >
+                    🌤️
+                </div>
 
-    <p class="condition">Search for a city</p>
+                <h2 class="temperature">--°</h2>
 
-    <p class="city-name">---</p>
+                <p class="condition">Search for a city</p>
 
-    <div class="weather-details">
-        <p>Humidity: --%</p>
-        <p>Wind: -- mph</p>
-    </div>
-</div>
+                <p class="city-name">---</p>
 
-            </section>
+                <div class="weather-details">
+                    <p class="humidity">Humidity: --%</p>
+                    <p class="wind-speed">Wind: -- mph</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-                </main>
-
-            <script src="js/script.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
