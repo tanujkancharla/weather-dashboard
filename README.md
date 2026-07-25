@@ -20,8 +20,8 @@ A responsive weather application that displays real-time weather information for
 - OpenWeather API
 
 ## 📸 Preview
+<img width="2452" height="1478" alt="image" src="https://github.com/user-attachments/assets/784c6ff6-e242-4391-aa11-cce23ba77235" />
 
-*Add a screenshot or GIF here.*
 
 ## ⚙️ Setup
 
