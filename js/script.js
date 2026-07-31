@@ -1,4 +1,4 @@
-const apiKey = "API-KEY";
+const apiKey = "";
 
 console.log("JavaScript connected!");
 
